@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name = 'DMOfferWallSDK'
-    s.version = '4.1.4'
+    s.version = '4.1.5'
     s.license = 'Domob'
     s.summary = 'iOS SDK for Domob OfferWall'
     s.homepage = 'http://www.domob.cn/'
     s.author = { 'Domob' => 'support@domob.com' }
-    s.source = { :git => 'https://github.com/gaoyz/DMOfferWallSDK.git', :tag => '4.1.4' }
+    s.source = { :git => 'https://github.com/gaoyz/DMOfferWallSDK.git', :tag => '4.1.5' }
     s.description = "iOS SDK for Domob OfferWall"
     s.platform = :ios
     s.source_files = '*.h'
