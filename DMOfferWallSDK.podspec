@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.source_files = '*.h'
     s.preserve_paths = '*.a'
-    s.library = 'DomobOfferWallSDK'
+    s.libraries = 'DomobOfferWallSDK', 'sqlite3'
     s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/DMOfferWallSDK"' }
-    s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'QuartzCore', 'CoreLocation'
+    s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'CoreMedia', 'AVFoundation'
     s.weak_frameworks = 'AdSupport', 'StoreKit'
     s.resources = 'DomobOfferWallBundle/DomobOfferWallBundle.bundle'
 end
