@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'DMOfferWallSDK'
-    s.version = '6.0.0'
+    s.version = '6.1.1'
     s.license = 'Domob'
     s.summary = 'iOS SDK for Domob OfferWall'
     s.homepage = 'http://www.domob.cn/'
@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.source_files = '*.h'
     s.preserve_paths = '*.a'
-    s.libraries = 'AssetZoneSDK', 'sqlite3', 'z'
+    s.libraries = 'StoreHouseSDK', 'sqlite3', 'z'
     s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/DMOfferWallSDK"' }
     s.frameworks = 'CoreTelephony', 'MessageUI', 'AdSupport', 'CoreMedia', 'AVFoundation', 'StoreKit', 'SystemConfiguration', 'CoreGraphics', 'CoreLocation'
-    s.resources = 'AssetZoneBundle.bundle'
+    s.resources = 'StoreHouseBundle.bundle'
 end
